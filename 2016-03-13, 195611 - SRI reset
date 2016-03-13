@@ -1,0 +1,106 @@
+Sunday,13,March,2016,11:48:06:52804
+VCDS -- Windows Based VAG/VAS Emulator Running on Windows 10 x64
+VCDS Version: 15.7.4.1 (x64)
+Data version: 20160216
+www.Ross-Tech.com
+
+
+VIN:    License Plate: 94
+Mileage: 195611   Repair Order: 
+
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+VCDS Release 15.7.4:  SRI Reset
+Control Module Part Number: 4F0 910 900 A       Labels:  4F0-910-xxx-17.lbl
+Component:KOMBIINSTR. M73 H10 0630, Coding:2113143
+Operation: Service Reset
+************************************************************************************************************************
+Channel  	Description                                       	Unit      	Current val.  	New val.  
+02       	Service Reminder Status                           	          	1             	0         
+40       	Mileage since Service                             	km x100   	293           	---       
+41       	Time since Service                                	Days      	784           	---       
+42       	Min Mileage to Service                            	km x100   	150           	---       
+43       	Max Mileage to Service                            	km x100   	300           	---       
+44       	Max Time to Service                               	Days      	730           	---       
+45       	Oil Quality                                       	          	2             	---       
+47       	Soot Quantity                                     	km x100   	0             	---       
+48       	Thermal Load                                      	km x100   	783           	---       
+49       	Min Time to Service                               	Days      	365           	---       
+************************************************************************************************************************
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+VCDS Release 15.7.4:  SRI Reset
+Control Module Part Number: 4F0 910 900 A       Labels:  4F0-910-xxx-17.lbl
+Component:KOMBIINSTR. M73 H10 0630, Coding:2113143
+Operation: Service Reset
+************************************************************************************************************************
+Channel  	Description                                       	Unit      	Current val.  	New val.  
+02       	Service Reminder Status                           	          	1             	0         
+40       	Mileage since Service                             	km x100   	293           	---       
+41       	Time since Service                                	Days      	784           	---       
+42       	Min Mileage to Service                            	km x100   	150           	---       
+43       	Max Mileage to Service                            	km x100   	300           	---       
+44       	Max Time to Service                               	Days      	730           	---       
+45       	Oil Quality                                       	          	2             	---       
+47       	Soot Quantity                                     	km x100   	0             	---       
+48       	Thermal Load                                      	km x100   	783           	---       
+49       	Min Time to Service                               	Days      	365           	---       
+************************************************************************************************************************
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Address 17:4F0 910 900 A  channel 2 adapted from 1 to 00000  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+VCDS Release 15.7.4:  SRI Reset
+Control Module Part Number: 4F0 910 900 A       Labels:  4F0-910-xxx-17.lbl
+Component:KOMBIINSTR. M73 H10 0630, Coding:2113143
+Operation: Change to Flexible Intervals (Kilometers),Gasoline
+************************************************************************************************************************
+Channel  	Description                                       	Unit      	Current val.  	New val.  
+02       	Service Reminder Status                           	          	1             	---       
+40       	Mileage since Service                             	km x100   	293           	---       
+41       	Time since Service                                	Days      	784           	---       
+42       	Min Mileage to Service                            	km x100   	150           	100       
+43       	Max Mileage to Service                            	km x100   	300           	135       
+44       	Max Time to Service                               	Days      	730           	250       
+45       	Oil Quality                                       	          	2             	1         
+47       	Soot Quantity                                     	km x100   	0             	---       
+48       	Thermal Load                                      	km x100   	783           	---       
+49       	Min Time to Service                               	Days      	365           	150       
+************************************************************************************************************************
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Address 17:4F0 910 900 A  channel 45 adapted from 2 to 00001  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Address 17:4F0 910 900 A  channel 42 adapted from 150 to 00100  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Address 17:4F0 910 900 A  channel 43 adapted from 300 to 00135  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Address 17:4F0 910 900 A  channel 49 adapted from 365 to 00150  
