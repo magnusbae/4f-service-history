@@ -1,0 +1,418 @@
+#hndoc:?docid=000016A6&xt=hnh:C2692FC94912F8896F4CA404E0712744E7551F212322C875FC5BB20C7704FDDC
+VCDS Mobile 0.4301.0.4
+
+VIN: XXXXXXXXXXXXXXXXX
+
+Scan: 01 02 03 05 07 08 09 0E 15 16 17 18 19 42 46 47 4F 52 53 55
+	 56 61 62 72 76 77
+
+VIN: XXXXXXXXXXXXXXXXX
+
+01-Engine -- Status: Malfunction 0010
+02-Auto Trans -- Status: OK 0000
+03-ABS Brakes -- Status: Malfunction 0010
+05-Acc/Start Auth. -- Status: OK 0000
+07-Control Head -- Status: OK 0000
+08-Auto HVAC -- Status: OK 0000
+09-Cent. Elect. -- Status: OK 0000
+0E-Media Player 1 -- Status: Communication Error 1000
+15-Airbags -- Status: OK 0000
+16-Steering wheel -- Status: OK 0000
+17-Instruments -- Status: OK 0000
+18-Aux. Heat -- Status: OK 0000
+19-CAN Gateway -- Status: Malfunction 0010
+25-Immobilizer -- Status: OK 0000
+42-Door Elect, Driver -- Status: OK 0000
+46-Central Conv. -- Status: OK 0000
+47-Sound System -- Status: OK 0000
+4F-Centr. Electr. II -- Status: OK 0000
+52-Door Elect, Pass. -- Status: OK 0000
+53-Parking Brake -- Status: Malfunction 0010
+55-Xenon Range -- Status: OK 0000
+56-Radio -- Status: Malfunction 0010
+61-Battery Regul. -- Status: Malfunction 0010
+62-Door, Rear Left -- Status: OK 0000
+72-Door, Rear Right -- Status: OK 0000
+76-Park Assist -- Status: Malfunction 0010
+77-Telephone -- Status: OK 0000
+
+
+
+-----------------------------------------------------------------
+Address 01: Engine	Labels: 06E-910-559-BKH.lbl
+	Part No SW: 4F1 910 559	HW: 4F1907559
+	Component: 3.2l V6 FSI          0040
+	Revision: --H15---	Serial Number:               
+	Coding: 01050003190F0120
+	Shop #: WSC 02325 785 00200
+	VCID: E893ABA38F0C4B233A13FAF306-80BD
+
+2 Faults Found:
+18613 - Performance Malfunction in Cooling System
+	P2181 - 000 - - - Intermittent
+
+18061 - Please check DTC Memory of ABS Controller
+	P1653 - 000 - - - Intermittent
+
+
+-----------------------------------------------------------------
+Address 02: Auto Trans	Labels: 4F-02.lbl
+	Part No SW: 4F1 910 156 H	HW: 09L927156
+	Component: AG6 09L 3.2 FSI RdW  0020
+	Revision: --H01---	Serial Number:        4000378
+	Coding: 0000001
+	Shop #: WSC 02325 785 00200
+	VCID: 29156EA7D486322B659DC7FFD5-807C
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 03: ABS Brakes	Labels: 4F0-910-517.lbl
+	Part No SW: 4F0 910 517 L	HW: 4F0614517L
+	Component: ESP 8.0 quattro H03  0090
+	Revision: 00000000	Serial Number: 00000000000000
+	Coding: 0020895
+	Shop #: WSC 02325 785 00200
+	VCID: 2D1D9AB7E06E2E0B89C5F30F81-8078
+
+6 Faults Found:
+01200 - ABS Valves Supply Voltage
+	000 - - - Intermittent
+
+01826 - Sensor for Steering Angle (G85); Supply Voltage Terminal 30
+	000 - - - Intermittent
+
+00265 - ABS Outlet Valve; Front Left (N102)
+	000 - - - Intermittent
+
+00267 - ABS Outlet Valve; Front Right (N100)
+	000 - - - Intermittent
+
+01421 - High Pressure Switch Valve 2 for Electronic Stability Program (N228)
+	000 - - - Intermittent
+
+00276 - ABS Outlet Valve; Rear Left (N136)
+	000 - - - Intermittent
+
+
+-----------------------------------------------------------------
+Address 05: Acc/Start Auth.	Labels: 4F0-910-852.clb
+	Part No SW: 4F0 910 852	HW: 4F0837220D
+	Component: FBSAUDIC6 ELV   H30  0220
+	Revision: 31050601	Serial Number: 10600300114622
+	Coding: 0000003
+	Shop #: WSC 00700 218 63961
+	VCID: E389BC8F762A287BEFE1C5B747-80B6
+
+	Subsystem 1 - 	Part No SW: 4F0-910-131-E
+	Component: FBSAUDIC6 EZS   H43  0070
+
+	Subsystem 2 - 	Part No SW: 4F0-910-220-D
+	Component: FBSAUDIC6 IDG   H36  0040
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 07: Control Head	Labels: 4F0-910-7xx-07-H.lbl
+	Part No SW: 4F0 910 730 D	HW: 4F1919610K
+	Component: Interfacebox    H43  1110
+	Revision: 00000000	Serial Number: 392AJ057500519
+	Coding: 0000002
+	Shop #: WSC 02335 785 00200
+	VCID: 2207798BA9B0E1732457788B70-8077
+
+	Subsystem 1 - 	Part No SW: 4F0-910-609-B
+	Component: Bedienteil MMIC6H07  0010
+	Serial Number: 00000000100046
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 08: Auto HVAC	Labels: 4F0-910-043.lbl
+	Part No SW: 4F0 910 043	HW: 4F1820043J
+	Component: KLIMABETAETIGUNGH11  0110
+	Revision: 00000024	Serial Number: 00000000104689
+	Coding: 0534534
+	Shop #: WSC 02325 785 00200
+	VCID: DBF9846F4E5A10BBA7916D57EF-808E
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 09: Cent. Elect.	Labels: 4F0-910-279.lbl
+	Part No SW: 4F0 910 279	HW: 4E0955559A
+	Component: ILM Fahrer      H14  0080
+	Revision: 00000000	Serial Number: 4F0907279     
+	Coding: 0013122
+	Shop #: WSC 02335 785 00200
+	VCID: E68FA59B85185D5308FFE4DB7C-80B3
+
+	Subsystem 1 - 	Part No SW: 4F1-910-113-D	Labels: 1Kx-955-119.clb
+	Component: Wischer AudiC6  H11  0040
+	Coding: 0022800
+
+	Subsystem 2 - 	Part No SW: 4E0-910-557	Labels: 8K0-955-559.clb
+	Component: REGENLICHTSENSORH10  0050
+	Coding: 0141886
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 0E: Media Player 1	Labels: 4E0-910-111.lbl
+	Part No SW: 4E0 910 111 E	HW: 4E0035111A
+	Component: CD-Changer      H44  0430
+	Revision: 00000000	Serial Number: AUZ5ZBD7107675
+	Shop #: WSC 00000 000 00000
+	VCID: 1B79446F8EDAD0BBE7112D57AF-804E
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 15: Airbags	Labels: 4F0-910-655-8R.lbl
+	Part No SW: 4F0 910 655 D	HW: 4F0959655B
+	Component: 33 AIRBAG AUDI8RH29  0250
+	Revision: 05H29000	Serial Number: 0037LD0570HU  
+	Coding: 0013107
+	Shop #: WSC 00700 218 67358
+	VCID: 28136BA3CF8C0B237A93BAF3C6-807D
+
+	Subsystem 1 - 	Serial Number: 6332CSME0825452D0
+
+	Subsystem 2 - 	Serial Number: 6342CSME085A7D6CN
+
+	Subsystem 3 - 	Serial Number: 6351HSME0612010FZ
+
+	Subsystem 4 - 	Serial Number: 6361HSME06120110M
+
+	Subsystem 5 - 	Serial Number: 6371VSME06200956B
+
+	Subsystem 6 - 	Serial Number: 6381VSME0604431CE
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 16: Steering wheel	Labels: 4F0-910-549.lbl
+	Part No SW: 4F0 910 549	HW: 4F0953549B
+	Component: LenksÃ¤ulenmodul H07 0230
+	Revision: 00H07000	Serial Number: 90022050080132
+	Coding: 0002341
+	Shop #: WSC 02323 785 00200
+	VCID: E68FA59B85185D5308FFE4DB7C-80B3
+
+	Subsystem 1 - 	Part No SW: XXX-XXX-XXX-XX
+	Component: Lenkradmodul    H06  0080
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 17: Instruments	Labels: 4F-17.lbl
+	Part No SW: 4F0 910 900 A	HW: 4F0920900R
+	Component: KOMBIINSTR. M73 H10  0630
+	Revision: 00200000	Serial Number: 4R614RH15     
+	Coding: 2113143
+	Shop #: WSC 40890 001 1048576
+	VCID: 1E7F4D7B9DC8C593002F4C7B44-804B
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 18: Aux. Heat	Labels: None
+	Part No SW: 4F0 910 105	HW: 4F0265081E
+	Component: Heizgeraet      H01  0020
+	Revision:        A	Serial Number: 09010152      
+	Coding: 0000111
+	Shop #: WSC 42248 001 1048576
+	VCID: DAF7816B4160E9B3BC87602BD8-808F
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 19: CAN Gateway	Labels: 4F0-910-468.lbl
+	Part No SW: 4F0 910 468 A	HW: 4F0907468B
+	Component: Gateway         H09  0030
+	Revision: 09      	Serial Number: 08008051220061
+	Coding: ECFE73C61B1104
+	Shop #: WSC 02325 785 00200
+	VCID: 2711689FC292045B7389B1C733-8072
+
+1 Fault Found:
+02076 - Media Player Position 1 (R118)
+	004 - No Signal/Communication - Intermittent
+
+
+-----------------------------------------------------------------
+Address 42: Door Elect, Driver	Labels: 4F0-910-793-42.lbl
+	Part No SW: 4F0 910 793 B	HW: 4F0959793B
+	Component: TSG FA          H11  0040
+	Revision: 00000000	Serial Number: 7A
+	Coding: 0000618
+	Shop #: WSC 02327 785 00200
+	VCID: 29156EA7D486322B659DC7FFD5-807C
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 46: Central Conv.	Labels: 4F0-910-289.lbl
+	Part No SW: 4F0 910 289 E	HW: 4F0907289E
+	Component: Komfortgeraet   H15  0100
+	Revision: 01000015	Serial Number: 01002430000000
+	Coding: 0140529
+	Shop #: WSC 02335 785 00200
+	VCID: 2C1B97B3DB7427039EBBE603F2-8079
+
+	Subsystem 1 - 	Part No SW: 1K0-951-605-C
+	Component: LIN BACKUP HORN H02  1301
+
+	Subsystem 2 - 	Part No SW: 4F0-910-177
+	Component: Innenraumueberw.H01  0020
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 47: Sound System	Labels: 4F0-910-223-AS.lbl
+	Part No SW: 4F0 910 223 B	HW: 4F0035223
+	Component: Amp.-ASK        H09  0270
+	Revision: 16S00001	Serial Number: 02911040051501
+	Coding: 0000006
+	Shop #: WSC 02335 785 00200
+	VCID: 1D7D4A7790CEDE8B1925434FB1-8048
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 4F: Centr. Electr. II	Labels: 4F0-910-280.lbl
+	Part No SW: 4F0 910 280	HW: 4F0907280A
+	Component: ILM Beifahrer   H09  0050
+	Revision:         	Serial Number: 00000000060639
+	Coding: 0001104
+	Shop #: WSC 02323 785 00200
+	VCID: DEFF8D7B5D480593C0AF8C7B84-808B
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 52: Door Elect, Pass.	Labels: 4F0-910-793-52.lbl
+	Part No SW: 4F0 910 793 B	HW: 4F0959792B
+	Component: TSG BF          H11  0040
+	Revision: 00000000	Serial Number: )A
+	Coding: 0000618
+	Shop #: WSC 02327 785 00200
+	VCID: 29156EA7D486322B659DC7FFD5-807C
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 53: Parking Brake	Labels: 4F0-910-801.clb
+	Part No SW: 4F0 910 801	HW: 4F0907801
+	Component: EPB  C63C0030   H03  0030
+	Revision: C63C0030
+	Coding: 0005021
+	Shop #: WSC 02335 785 00200
+	VCID: DDFD8A77504E1E8BD9A5834FF1-8088
+
+1 Fault Found:
+01316 - ABS Control Module
+	013 - Check DTC Memory - Intermittent
+
+
+-----------------------------------------------------------------
+Address 55: Xenon Range	Labels: 4F0-910-357.lbl
+	Part No SW: 4F0 910 357 C	HW: 4F0907357C
+	Component: AFS 1           H01  0020
+	Revision: 00000001	Serial Number:               
+	Coding: 0000016
+	Shop #: WSC 02325 785 00200
+	VCID: 260F659BC5981D53487FA4DB3C-8073
+
+	Subsystem 1 - 	Part No SW: 4F0-941-329-A
+	Component: AFS-Modul links H05  0010
+
+	Subsystem 2 - 	Part No SW: 4F0-941-329-A
+	Component: AFS-Modul rechtsH05  0010
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 56: Radio	Labels: 4E0-910-541.lbl
+	Part No SW: 4E0 910 541 F	HW: 4F0035541B
+	Component: TUNER EU/US/RDW H42  0480
+	Revision: 00000000	Serial Number: 394AM057511743
+	Coding: 0000001
+	Shop #: WSC 02325 785 00200
+	VCID: 23097C8FB6AAE87B2F6185B707-8076
+
+1 Fault Found:
+00858 - Connection; Radio Intermediate Frequency (IF) Output to Antenna Amplifier
+	007 - Short to Ground - Intermittent
+
+
+-----------------------------------------------------------------
+Address 61: Battery Regul.	Labels: 4F0-910-181.lbl
+	Part No SW: 4F0 910 181 E	HW: 4F0915181A
+	Component: ENERGIEMANAGER  H12  0490
+	Revision: 00000000	Serial Number: 00000000006252
+	Coding: 0000000
+	Shop #: WSC 21795 000 1048576
+	VCID: 23097C8FB6AAE87B2F6185B707-8076
+
+	Subsystem 1 - 	Part No SW: 4F0-915-105-D
+	Component: von VA0  331013D0B2      
+
+4 Faults Found:
+02273 - Quiescent Current Stage 2
+	000 - - - Intermittent
+
+02276 - Quiescent Current Stage 5
+	000 - - - Intermittent
+
+02274 - Quiescent Current Stage 3
+	000 - - - Intermittent
+
+02277 - Quiescent Current Stage 6
+	000 - - - Intermittent
+
+
+-----------------------------------------------------------------
+Address 62: Door, Rear Left	Labels: 4F0-910-795.lbl
+	Part No SW: 4F0 910 795 A	HW: 4F0959795A
+	Component: TSG HL          H09  0010
+	Coding: 0000042
+	Shop #: WSC 02327 785 00200
+	VCID: 2A1791ABD18039336CA7D0EBE8-807F
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 72: Door, Rear Right	Labels: 4F0-910-795.lbl
+	Part No SW: 4F0 910 795 A	HW: 4F0959794A
+	Component: TSG HR          H09  0010
+	Coding: 0000042
+	Shop #: WSC 02327 785 00200
+	VCID: 2A1791ABD18039336CA7D0EBE8-807F
+
+No fault codes found.
+
+-----------------------------------------------------------------
+Address 76: Park Assist	Labels: 4Fx-910-283.lbl
+	Part No SW: 4F0 910 283	HW: 4F0919283
+	Component: Parkhilfe 4-Kan H09  0030
+	Revision: --.--.--	Serial Number: 11720501200993
+	Coding: 0001006
+	Shop #: WSC 02325 785 00200
+	VCID: E185B6876C363A6BFDCDAF9FBD-80B4
+
+1 Fault Found:
+01546 - Sensor for Parking Aid; Rear Mid-Left (G204)
+	004 - No Signal/Communication
+
+
+-----------------------------------------------------------------
+Address 77: Telephone	Labels: 4E0-910-333.lbl
+	Part No SW: 4E0 910 333 E	HW: 4E0862333C
+	Component: TELEFONMODUL EU      0700
+	Revision: 00000006	Serial Number: T2AUDX0504HGXN
+	Coding: 0000006
+	Shop #: WSC 02325 785 00200
+	VCID: 21057687ACB6FA6B3D4D6F9F7D-8074
+
+No fault codes found.
